@@ -1,7 +1,8 @@
 # credit: https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/
 
-from random import random
 from math import exp
+from random import seed
+from random import random
 
 
 # Initialize a network
@@ -84,23 +85,31 @@ def train_network(network, train, l_rate, n_epoch, n_outputs):
     for epoch in range(n_epoch):
         sum_error = 0
         for row in train:
-            outputs = forward_propagate(network, row)
-            expected = [0 for i in range(n_outputs)]
+            outputs = forward_propagate(network, row)  # values outputted from last layer
+            expected = [0 for i in range(n_outputs)]  # one hot encoding for number of classes
             expected[row[-1]] = 1
-            sum_error += sum([(expected[i] - outputs[i]) ** 2 for i in range(len(expected))])
-            backward_propagate_error(network, expected)
-            update_weights(network, row, l_rate)
+            sum_error += sum([(expected[i] - outputs[i]) ** 2 for i in range(len(expected))])  # sum squared error
+            backward_propagate_error(network, expected)  #
+            update_weights(network, row, l_rate)  # stochastic gradient descent
         print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, l_rate, sum_error))
 
 
-# test back-propagation of error                       input neuron 1        input neuron 2      hidden neuron bias
-network = [[{'id': 'hidden1', 'output': 0.7105668883115941,
-             'weights': [0.13436424411240122, 0.8474337369372327, 0.763774618976614]}],
-           [{'id': 'out1', 'output': 0.6213859615555266, 'weights': [0.2550690257394217, 0.49543508709194095]},
-            # output neuron 1
-            {'id': 'out2', 'output': 0.6573693455986976,
-             'weights': [0.4494910647887381, 0.651592972722763]}]]  # output neuron 2
-expected = [0, 1]
-backward_propagate_error(network, expected)
+# test back-propagation of error
+seed(1)
+dataset = [[2.7810836, 2.550537003, 0],
+           [1.465489372, 2.362125076, 0],
+           [3.396561688, 4.400293529, 0],
+           [1.38807019, 1.850220317, 0],
+           [3.06407232, 3.005305973, 0],
+           [7.627531214, 2.759262235, 1],
+           [5.332441248, 2.088626775, 1],
+           [6.922596716, 1.77106367, 1],
+           [8.675418651, -0.242068655, 1],
+           [7.673756466, 3.508563011, 1]]
+
+n_inputs = len(dataset[0]) - 1
+n_outputs = len(set([row[-1] for row in dataset]))  # (0,1)
+network = initialize_network(n_inputs, 2, n_outputs)  # inputs, 2 hidden neurons, outputs
+train_network(network, dataset, 0.65, 1000, n_outputs)  # error=0.003 - adjust if more training samples added
 for layer in network:
     print(layer)
