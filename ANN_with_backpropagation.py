@@ -50,32 +50,28 @@ def backward_propagate_error(network, expected):
     for i in reversed(range(len(network))):
         layer = network[i]  # starts at output layer
         errors = list()
-        if i != len(network) - 1:  # if not hidden ;ayer
+        if i != len(network) - 1:  # if not output layer i.e hidden layers
             for j in range(len(layer)):
-                print(len(layer))
                 error = 0.0
                 for neuron in network[i + 1]:
-                    error += (neuron['weights'][j] * neuron['delta'])
+                    error += (neuron['weights'][j] * neuron['delta'])  # error = (weight_k * error_j)
                 errors.append(error)
         else:
-            for j in range(len(layer)):
+            for j in range(len(layer)):  # calculate error signal for output neurons
                 neuron = layer[j]
-                errors.append(expected[j] - neuron['output'])
+                errors.append(expected[j] - neuron['output'])  # error = (expected - output)
+
+        # error * transfer_derivative(output)
         for j in range(len(layer)):
             neuron = layer[j]
             neuron['delta'] = errors[j] * transfer_derivative(neuron['output'])
+            print(neuron)
 
 
-# test forward propagation
-network = [[{'weights': [0.13436424411240122, 0.8474337369372327, 0.763774618976614]}], # 2 inputs to hidden neuron with bias
-           [{'weights': [0.2550690257394217, 0.49543508709194095]},  # hidden to output neuron 1 with weight and bias
-            {'weights': [0.4494910647887381, 0.651592972722763]}]]  # hidden to output neuron 2 with weight and bias
-
-row = [1, 0, None]  # inputs 1, 0 and no weight for input
-output = forward_propagate(network, row)
-print(output)
-
+# test back-propagation of error                       input neuron 1        input neuron 2      hidden neuron bias
+network = [[{'id': 'hidden1', 'output': 0.7105668883115941, 'weights': [0.13436424411240122, 0.8474337369372327, 0.763774618976614]}],
+           [{'id': 'out1', 'output': 0.6213859615555266, 'weights': [0.2550690257394217, 0.49543508709194095]},  # output neuron 1
+            {'id': 'out2', 'output': 0.6573693455986976, 'weights': [0.4494910647887381, 0.651592972722763]}]]  # output neuron 2
 expected = [0, 1]
 backward_propagate_error(network, expected)
-for layer in network:
-	print(layer)
+
