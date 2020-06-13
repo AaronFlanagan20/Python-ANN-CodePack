@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45fd9878-4569-41a5-993a-5ce09e190eb1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ANN_with_backpropagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANN_with_backpropagation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="ANN_with_backpropagation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="91" column="55" lean-forward="true" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
+            <state relative-caret-position="416">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="e#98#118#0" expanded="true" />
               </folding>
@@ -199,12 +200,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2905983" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2905983" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="91" column="55" lean-forward="true" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
+        <state relative-caret-position="416">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="e#98#118#0" expanded="true" />
           </folding>

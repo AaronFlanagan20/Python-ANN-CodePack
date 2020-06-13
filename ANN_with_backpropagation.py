@@ -86,12 +86,18 @@ def train_network(network, train, l_rate, n_epoch, n_outputs):
         sum_error = 0
         for row in train:
             outputs = forward_propagate(network, row)  # values outputted from last layer
-            expected = [0 for i in range(n_outputs)]  # one hot encoding for number of classes
-            expected[row[-1]] = 1
+            expected = [0 for i in range(n_outputs)]  # list of number of classes [0,0]
+            expected[row[-1]] = 1  # one hot encoding - set class index position to one
             sum_error += sum([(expected[i] - outputs[i]) ** 2 for i in range(len(expected))])  # sum squared error
-            backward_propagate_error(network, expected)  #
+            backward_propagate_error(network, expected)
             update_weights(network, row, l_rate)  # stochastic gradient descent
         print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, l_rate, sum_error))
+
+
+# Make a prediction with a network
+def predict(network, row):
+    outputs = forward_propagate(network, row)
+    return outputs.index(max(outputs))  # print index of highest value in list
 
 
 # test back-propagation of error
@@ -111,5 +117,9 @@ n_inputs = len(dataset[0]) - 1
 n_outputs = len(set([row[-1] for row in dataset]))  # (0,1)
 network = initialize_network(n_inputs, 2, n_outputs)  # inputs, 2 hidden neurons, outputs
 train_network(network, dataset, 0.65, 1000, n_outputs)  # error=0.003 - adjust if more training samples added
-for layer in network:
-    print(layer)
+
+print('\nMaking Predictions: ')
+for row in dataset:
+    prediction = predict(network, row)
+    print('Expected=%d, Got=%d' % (row[-1], prediction))
+
