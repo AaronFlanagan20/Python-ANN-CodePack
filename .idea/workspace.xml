@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45fd9878-4569-41a5-993a-5ce09e190eb1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python CodePack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python CodePack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_metrics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_classificiation_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_classificiation_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,13 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="binary_classificiation_problem.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/binary_classificiation_problem.py">
+      <file leaf-file-name="keras_metrics.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keras_metrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="116" selection-start-column="116" selection-end-column="116" />
+            <state relative-caret-position="348">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
-                <element signature="e#80#121#0" expanded="true" />
+                <element signature="e#89#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +52,7 @@
         <option value="$PROJECT_DIR$/performance_metrics.py" />
         <option value="$PROJECT_DIR$/ANN_with_backpropagation.py" />
         <option value="$PROJECT_DIR$/binary_classificiation_problem.py" />
+        <option value="$PROJECT_DIR$/keras_metrics.py" />
       </list>
     </option>
   </component>
@@ -106,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary_classificiation_problem">
+  <component name="RunManager" selected="Python.keras_metrics">
     <configuration name="ANN Insurance_Fraud using keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python CodePack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,14 +171,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="keras_metrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python CodePack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\aaron\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_metrics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.ANN Insurance_Fraud using keras" />
       <item itemvalue="Python.fourier transform" />
       <item itemvalue="Python.binary_classificiation_problem" />
       <item itemvalue="Python.ANN_with_backpropagation" />
+      <item itemvalue="Python.keras_metrics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.keras_metrics" />
         <item itemvalue="Python.binary_classificiation_problem" />
         <item itemvalue="Python.ANN_with_backpropagation" />
         <item itemvalue="Python.ANN Insurance_Fraud using keras" />
@@ -253,6 +265,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="75" column="36" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
+          <folding>
+            <element signature="e#98#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -260,6 +275,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#98#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -267,6 +285,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="62" />
+          <folding>
+            <element signature="e#98#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -307,22 +328,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/binary_classificiation_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#80#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="-247">
+          <caret line="193" column="34" selection-start-line="193" selection-start-column="34" selection-end-line="193" selection-end-column="34" />
           <folding>
             <element signature="e#98#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_classificiation_problem.py">
+    <entry file="file://$PROJECT_DIR$/keras_metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="116" selection-start-column="116" selection-end-column="116" />
+        <state relative-caret-position="348">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
-            <element signature="e#80#121#0" expanded="true" />
+            <element signature="e#89#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
