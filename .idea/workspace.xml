@@ -17,10 +17,10 @@
       <file leaf-file-name="ANN_with_backpropagation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="314">
+              <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
               <folding>
-                <element signature="e#98#118#0" expanded="true" />
+                <element signature="e#98#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +61,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,10 +68,16 @@
               <item name="Python ANN CodePack" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python ANN CodePack" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python ANN CodePack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python ANN CodePack" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,11 +214,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -227,10 +232,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
+          <folding>
+            <element signature="e#98#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
-            <element signature="e#98#118#0" expanded="true" />
+            <element signature="e#98#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -240,7 +255,7 @@
         <state relative-caret-position="765">
           <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="62" />
           <folding>
-            <element signature="e#98#118#0" expanded="true" />
+            <element signature="e#98#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -297,10 +312,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="314">
+          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
           <folding>
-            <element signature="e#98#118#0" expanded="true" />
+            <element signature="e#98#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
