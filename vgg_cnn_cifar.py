@@ -1,4 +1,4 @@
-#credit: https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification/
+# credit: https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification/
 
 # baseline model with dropout and data augmentation on the cifar10 dataset
 from matplotlib import pyplot
@@ -13,6 +13,7 @@ from keras.optimizers import SGD
 from keras.preprocessing.image import ImageDataGenerator
 from keras.layers import Dropout
 from keras.layers import BatchNormalization
+import time
 
 
 # load train and test dataset
@@ -107,9 +108,12 @@ def run_test_harness():
 
     # fit model
     print("fitting model...")
+    start_time = time.time()
     steps = int(trainX.shape[0] / 64)
     history = model.fit_generator(it_train, steps_per_epoch=steps, epochs=20, validation_data=(testX, testY),
                                   verbose=0)
+
+    print("--- %s minutes ---" % ((time.time() - start_time) / 60))
 
     # save model
     model.save('models/vgg_cnn_cifar.h5')
