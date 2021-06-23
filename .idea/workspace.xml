@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45fd9878-4569-41a5-993a-5ce09e190eb1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/img/summary_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/summary_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/vgg_cnn_cifar.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/vgg_cnn_cifar.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vgg_cnn_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/vgg_cnn_cifar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/one-hot-encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python CodePack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python CodePack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourier transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/fourier transform.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vgg_cnn_cifar.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
-              <folding>
-                <element signature="e#189#218#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +44,7 @@
         <option value="$PROJECT_DIR$/VGG_CNN_CIFAR.py" />
         <option value="$PROJECT_DIR$/evaluate_vgg_cnn_cifar.py" />
         <option value="$PROJECT_DIR$/vgg_cnn_cifar.py" />
+        <option value="$PROJECT_DIR$/../nsOCTScriptAaron.py" />
       </list>
     </option>
   </component>
@@ -67,6 +53,7 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectId" id="1uLLParUASU5nFyymeqwIUcUouR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -81,41 +68,26 @@
               <item name="Python ANN CodePack" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python ANN CodePack" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python ANN CodePack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python ANN CodePack" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python ANN CodePack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python ANN CodePack" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.vgg_cnn_cifar">
-    <configuration name="CNN_Keras_CIFAR10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ANN Insurance_Fraud using keras">
+    <configuration name="ANN Insurance_Fraud using keras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python CodePack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,13 +99,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Documents\OneDrive - National University of Ireland, Galway\College\Capstone\Python ANN CodePack\vgg_cnn_cifar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN Insurance_Fraud using keras.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="VGG_CNN_CIFAR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ANN_with_backpropagation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python CodePack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,29 +120,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Documents\OneDrive - National University of Ireland, Galway\College\Capstone\Python ANN CodePack\vgg_cnn_cifar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN_with_backpropagation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="evaluate_vgg_cnn_cifar" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python CodePack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate_vgg_cnn_cifar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="keras_metrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python CodePack" />
@@ -176,7 +136,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\aaron\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -186,8 +146,32 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="vgg_cnn_cifar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nsOCTScriptAaron" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python CodePack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../nsOCTScriptAaron.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="one-hot-encoding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python CodePack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,29 +183,33 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vgg_cnn_cifar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/one-hot-encoding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.keras_metrics" />
-      <item itemvalue="Python.CNN_Keras_CIFAR10" />
-      <item itemvalue="Python.VGG_CNN_CIFAR" />
-      <item itemvalue="Python.evaluate_vgg_cnn_cifar" />
-      <item itemvalue="Python.vgg_cnn_cifar" />
+      <item itemvalue="Python.ANN_with_backpropagation" />
+      <item itemvalue="Python.nsOCTScriptAaron" />
+      <item itemvalue="Python.one-hot-encoding" />
+      <item itemvalue="Python.ANN Insurance_Fraud using keras" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vgg_cnn_cifar" />
-        <item itemvalue="Python.evaluate_vgg_cnn_cifar" />
-        <item itemvalue="Python.VGG_CNN_CIFAR" />
-        <item itemvalue="Python.CNN_Keras_CIFAR10" />
+        <item itemvalue="Python.ANN Insurance_Fraud using keras" />
+        <item itemvalue="Python.one-hot-encoding" />
         <item itemvalue="Python.keras_metrics" />
+        <item itemvalue="Python.nsOCTScriptAaron" />
+        <item itemvalue="Python.ANN_with_backpropagation" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -238,10 +226,10 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42450142" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42344826" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,30 +237,78 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="17" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../nsOCTScriptAaron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Software/anaconda3/envs/NSOCT_ENV/Lib/site-packages/tensorflow/python/pywrap_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN Insurance_Fraud using keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN Insurance_Fraud using keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="70" lean-forward="true" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <element signature="e#189#218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -283,13 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loss_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loss_functions.py" />
     <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3808">
@@ -342,24 +372,26 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/keras/__init__.py" />
     <entry file="file://$PROJECT_DIR$/discrete fourier transform.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/random.py" />
-    <entry file="file://$PROJECT_DIR$/fourier transform.py">
+    <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="552">
+          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loss_functions.py" />
+    <entry file="file://$PROJECT_DIR$/evaluate_vgg_cnn_cifar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1765321238/builtins.py" />
     <entry file="file://$PROJECT_DIR$/ANN Insurance_Fraud using keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-808">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_classificiation_problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="-153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -370,43 +402,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ANN_with_backpropagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loss_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate_vgg_cnn_cifar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1765321238/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="5287" column="8" selection-start-line="5287" selection-start-column="8" selection-end-line="5287" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/summary_plot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vgg_cnn_cifar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="17">
           <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_classificiation_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fourier transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Software/anaconda3/envs/NSOCT_ENV/Lib/site-packages/tensorflow/python/pywrap_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nsOCTScriptAaron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
-            <element signature="e#189#218#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
