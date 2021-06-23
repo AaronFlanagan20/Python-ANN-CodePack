@@ -35,7 +35,7 @@ def run_test_harness():
     # prepare pixel data
     trainX, testX = prep_pixels(trainX, testX)
     # load model
-    model = load_model('models/vgg_cnn_cifar.h5')
+    model = load_model('vgg_cnn_cifar.h5')
     # evaluate model on test dataset
     _, acc = model.evaluate(testX, testY, verbose=0)
     print('> %.3f' % (acc * 100.0))

@@ -11,7 +11,7 @@ from keras.wrappers.scikit_learn import KerasClassifier
 
 # credit: https://heartbeat.fritz.ai/introduction-to-deep-learning-with-keras-c7c3d14e1527
 
-df = pd.read_csv('data/insurance_claims.csv')
+df = pd.read_csv('../data/insurance_claims.csv')
 sc = StandardScaler()
 
 params = {

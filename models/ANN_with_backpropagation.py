@@ -206,7 +206,7 @@ def back_propagation(train, test, l_rate, n_epoch, n_hidden):
 # Test Backprop on Seeds dataset
 seed(1)
 # load and prepare data
-filename = 'data/wheat-seeds.csv'
+filename = '../data/wheat-seeds.csv'
 dataset = load_csv(filename)
 for i in range(len(dataset[0])-1):
     str_column_to_float(dataset, i)

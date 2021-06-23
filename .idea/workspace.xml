@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45fd9878-4569-41a5-993a-5ce09e190eb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-hot-encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python CodePack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python CodePack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fourier transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/fourier transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANN Insurance_Fraud using keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ANN Insurance_Fraud using keras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANN_with_backpropagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ANN_with_backpropagation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_classificiation_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/binary_classificiation_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluate_vgg_cnn_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/evaluate_vgg_cnn_cifar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourier transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/fourier transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/keras_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-hot-encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/one-hot-encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgg_cnn_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/vgg_cnn_cifar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,14 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ANN Insurance_Fraud using keras">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python-Toolbox\general" />
+      <recent name="D:\Python-Toolbox\models" />
+      <recent name="D:\Python-Toolbox\utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.assignment_one">
     <configuration name="ANN Insurance_Fraud using keras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python CodePack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN Insurance_Fraud using keras.py" />
+      <option name="SCRIPT_NAME" value="D:\Python-Toolbox\models\ANN Insurance_Fraud using keras.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ANN_with_backpropagation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="assignment_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python CodePack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Documents/OneDrive - National University of Ireland, Galway/College/Semester 1/Machine Learning/Assignment 1" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN_with_backpropagation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Documents/OneDrive - National University of Ireland, Galway/College/Semester 1/Machine Learning/Assignment 1/assignment_one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_metrics.py" />
+      <option name="SCRIPT_NAME" value="D:\Python-Toolbox\utilities\keras_metrics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/one-hot-encoding.py" />
+      <option name="SCRIPT_NAME" value="D:\Python-Toolbox\utilities\one-hot-encoding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,18 +204,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.keras_metrics" />
-      <item itemvalue="Python.ANN_with_backpropagation" />
       <item itemvalue="Python.nsOCTScriptAaron" />
       <item itemvalue="Python.one-hot-encoding" />
       <item itemvalue="Python.ANN Insurance_Fraud using keras" />
+      <item itemvalue="Python.assignment_one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assignment_one" />
         <item itemvalue="Python.ANN Insurance_Fraud using keras" />
         <item itemvalue="Python.one-hot-encoding" />
         <item itemvalue="Python.keras_metrics" />
         <item itemvalue="Python.nsOCTScriptAaron" />
-        <item itemvalue="Python.ANN_with_backpropagation" />
       </list>
     </recent_temporary>
   </component>
